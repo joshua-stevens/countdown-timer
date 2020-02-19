@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Countdown</title>
+		<link href="./../css/index.css" rel="stylesheet" type="text/css" />
+	</head>
+	
+	<body>
+	
+	<span id="timer">
+		<p id="time">
+			<span id="hours"></span>
+			<span id="minutes">00</span>:
+			<span id="seconds">00</span>
+		</p>
+	</span>
+	
+	<div id="mainContent">
+		<form id="form">
+			<caption for="minutes">Please enter the minutes:</caption>
+			<input type="text" pattern="-*[0-9]+" name="minutes" id="minutesEnter" />
+			<br/>
+			<caption for="seconds">Please enter the seconds:</caption>
+			<input type="text" pattern="-*[0-9]+" name="seconds" id="secondsEnter" />
+			<br/>
+			<input type="submit" pattern="-*[0-9]+" id="submit" value="Submit" />
+		</form>
+	</div>
+	
+	
+	
+	
+	
+	<script src="./../js/index.js" type="text/javascript"></script>
+	</body>
+</html>
